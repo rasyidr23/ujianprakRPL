@@ -70,16 +70,19 @@ public class MahasiswaView extends javax.swing.JFrame {
 
         jButton1.setText("Simpan");
 
-        jButton2.setText("Update");
-
-        jButton3.setText("Hapus");
-
-        jButton4.setText("Refresh");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
+
+        jButton2.setText("Update");
+
+        jButton3.setText("Delete");
+
+        jButton4.setText("Refresh");
+
+
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -122,6 +125,7 @@ public class MahasiswaView extends javax.swing.JFrame {
                                     .addComponent(jLabel6))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+
                                     .addComponent(npmField, javax.swing.GroupLayout.DEFAULT_SIZE, 240, Short.MAX_VALUE)
                                     .addComponent(namaField)
                                     .addComponent(bukuField)
@@ -131,6 +135,7 @@ public class MahasiswaView extends javax.swing.JFrame {
                                 .addGap(6, 6, 6)
                                 .addComponent(jButton1)
                                 .addGap(18, 18, 18)
+                                      
                                 .addComponent(jButton2)
                                 .addGap(18, 18, 18)
                                 .addComponent(jButton3)
@@ -196,6 +201,10 @@ public class MahasiswaView extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
